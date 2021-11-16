@@ -1,8 +1,18 @@
 * {box-sizing:border-box}
 
+.principal{
+    position:fixed;
+    z-index: 1;
+}
+
+
+
+
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
+    padding-top: 30%;
     position: relative;
     margin: auto;
 }

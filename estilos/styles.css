@@ -13,20 +13,47 @@
 .navb{
     background-color: #10561f;
     color: #fff;
-    cursor: pointer;
-    padding: 10px;
-    text-align: left;
+    text-align: right;
     margin: 0px auto;
+    padding: 5px
 }
 
-.navb > ul > li{
+.navb > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navb > ul > .uno{
+    text-align: left;
+    list-style: none;
+    color: #fff;
+}
+
+.navb > ul > .uno > li > a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.navb > ul > .dos{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.navb > ul > .dos > li{
+    text-align: right;
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     margin: 0px auto;
 }
 
-.navb > ul > li > a{
+.navb > ul > .dos > li > a{
+    text-align: right;
     color: #fff;
     text-decoration: none;
     font-size: 20px;
